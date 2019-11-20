@@ -1,5 +1,7 @@
 language: java
 deploy:
- skip_cleanup: true
- provider: heroku
- app: spark-example-danielcabezas
+  skip_cleanup: true
+  provider: heroku
+  app: spark-example-danielcabezas
+  api_key:
+    secure: 1ALw7eu/2Yf37XtbIfSV86YhM3hQYFiWQXX8Ja0wan9i3N4TleyheeKZ0cqvtbF1jftxmAfGQZbvarHrk0Yh30bL8iCh4b+hhleE2Y8WXkOI8+oZdq3XNHW1ptDYqOprOgfLifNVVBU8plogvxSopj4y6e/6CIu2OmRXEmEw23BOsnjiJDc/wYXAzPalDA4cZMOysOu9fjAc3ZkfU0Ah3tDBbjjICE409+0CxQde2GDeUXpQQFes4Hz9Yd61gmBdTGVyBsR+bh6pYPShLO9DsboyOUdgmFpASho9AE6zi0+CA8tBWUBw0/KYYHp/iVXq8yqn+N1Zl30B55w8zQiXhO//YjQ+zevkyqH50r8PrqoJq36SvKfiP5cRAv4AziOwlxZ4NGl8lmUkgBts0ac5BNVjPAKeKdMZi78kzIWPZA49x/JtTLOZdSVSMe+VCr5zR458THY9tfbiJs5wFLsLjZ1FBc9qO2XOS+LG+tgxdTYN/n4NtwaqvJ7x5mNMyKRsFwyGe61l1CMskRDk+uLyN9/U4tTygj7ijS2iTSLAwcys9Sj/gdylUw2EWuByCVHC3WSysKBdqOxx27JrEtqBrcnrXfXfsGbfJubuSkVXvmkWveXvd8oO1eU0YvKCiw4ApKVXXhAGIluBpqvBTpcJEAaNWpBEZLbyOrMfOBWACCQ=
